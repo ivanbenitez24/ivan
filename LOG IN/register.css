@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.box
+{		
+		
+	margin: 0px;	
+	width: 340px;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: #1FA907 4px solid;
+	box-shadow: 0px 6px 45px -11px;
+	text-align: center;
+	text-size: 12px;
+}
+
+ 
+
+
+.box input {
+  width:80%;
+  box-sizing:border-box;
+  box-shadow: none;
+  border: none;
+  border-bottom:2px solid #999;
+}
+
+.box input{
+  padding: 10px;
+}
+.box button[type="submit"] {
+	padding: 15px;
+}
